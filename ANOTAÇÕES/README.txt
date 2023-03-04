@@ -87,3 +87,12 @@
     terminal para escrever o codigo
     baixar versão STABLE build
 
+
+  -------> IMG <-------
+  
+  GIMP -
+    editor de imagens de diferentes formatos
+
+  Formatos:
+    
+
