@@ -1,0 +1,5 @@
+SEMANTIC
+ It's about the meaning of symbols and signs. It's the interpretation and what I mean by the word or code. HTML5 uses intuitive tags and words, explaining exactly what you mean and highlighting the text, styled differently than normal text eg <address> for location instead of <u>. both will highlight the text.
+  HTML 5
+    <sub> It´s used to write x²
+    <sup> It´s used to H2O but in down

@@ -1,0 +1,5 @@
+ATALHOS TO WRAP WITH TAGS
+
+Ctrl + Shift + p
+  after that, to write the symbol > and wrap with abbreviation
+  we use this to wrap with tags in the sentence seleted in once.
