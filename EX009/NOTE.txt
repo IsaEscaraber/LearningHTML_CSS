@@ -1,0 +1,7 @@
+ATALHO
+
+shift + tab 
+  remove the paragraph of the code
+
+tab
+  insert paragraph on the code
