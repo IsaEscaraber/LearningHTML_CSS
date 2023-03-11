@@ -1,0 +1,3 @@
+Atalhos tab
+
+ALT = I can select more than one the tag at once
