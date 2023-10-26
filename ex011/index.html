@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML MIDEAS</title>
+</head>
+<body>
+  <h1>Dinamic Image</h1>
+  <p>Try opening this site on different devices or simply increase and decrease the size of your browser</p>
+  <picture>
+    <source media="(max-width:724px)" srcset="images/photo-p.png" type="image/png">
+    <source media="(max-width:1026px)" srcset="images/photo-m.png" type="image/png">
+    <img src="images/photo-g.png" alt="Flexible image">
+  </picture>
+</body>
+</html>
+<!--A ordem é super importante, primeiro adicionamos a foto maior e depois acrescentamos as menores de forma decrescente de baixo para cima --> >
