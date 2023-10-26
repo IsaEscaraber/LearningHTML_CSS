@@ -5,12 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>challenge ex011</title>
 </head>
+  <style type="text/css">
+    h1 {color: rgb(190, 3, 106);}
+    p {color: rgb(202, 157, 7);}
+    div {text-align: center;}
+  </style>
 <body>
+  <div>
   <h1>Responsive Page with a dinamic image</h1>  
-  <picture>
-    <source media="(min-width: )" srcset="" type="image/">
-    <source media="(min-width: )" srcset="" type="image/">
-    <img src="" alt="">
-  </picture>
+  <p>Try to decrease my picture</p>
+    <picture>
+    <source media="(max-width:724px)" srcset="image/photo-pp.png" type="image/png">
+    <source media="(max-width:1026px)" srcset="image/photo-mm.png" type="image/png">
+    <img src="image/myphoto.png" alt="myownphoto">
+    </picture>
+  </div>
 </body>
 </html>
