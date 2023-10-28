@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-    <style type="text/css">
-      body{
-        background-color: #121212;
-        height:100%; 
-        width:50%;
-        
-      }
-      #main{
-       
-      }
-      #title-text {
-        
-        margin-top: 50px;
-        margin-bottom: 50px;
-        /*width: 3000px;*/
-        display: table;
-        background-color: blue;
-      }
-      h1{
-        
-        display: table-cell;
-        vertical-align: middle;
-        color: rgb(252, 252, 252);
-        font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      }
-      #page-videos{
-        color: blue;
-        background-color: #b40606;
-      }
-      iframe{
-        border-radius: 20px;
-      }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <title>Home</title>
+  </head>
+  <style type="text/css">
+    body {
+      background-color: #121212;
+    }
 
-    </style>
-<body>
-  <main>
-  <div id="title-text">
+    h1 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+      color: rgb(252, 252, 252);
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif, "Lucida Sans",
+        "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+        Verdana, sans-serif;
+    }
+    .page-videos {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 5px;
+      margin: auto;
+      width: 50%;
+      text-align: center;
+    }
+    @media (max-width: 1000px) {
+      .page-videos {
+        display: grid;
+        grid-template-columns: auto;
+        margin: auto;
+      }
+    }
+
+    img {
+      min-width: 100%;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+  <body>
     <h1>Nice videos to watch</h1>
-  </div>
-
-    <div id="page-videos">
-      <a href="/challenge009/selectvideo/page2.hmtl"><img src="image/thumbxv-p.png"></a>
-      <iframe width="330" height="185" src="https://www.youtube.com/embed/YpmJJDFiT-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <iframe width="330" height="185" src="https://www.youtube.com/embed/Tdzb8zoRbeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <iframe width="330" height="185" src="https://www.youtube.com/embed/MvwdsXJE6Ao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="content">
+      <div class="page-videos">
+        <a href="/challenge009/selectvideo/page2-batel.html"
+          ><img src="image/thumbbatel-p.png"
+        /></a>
+        <a href="/challenge009/selectvideo/page2-mercado.html"
+          ><img src="image/thumbmercado-p.png"
+        /></a>
+        <a href="/challenge009/selectvideo/page2-passeio.html"
+          ><img src="image/thumbpasseio-p.png"
+        /></a>
+        <a href="/challenge009/selectvideo/page2-xv.html"
+          ><img src="image/thumbxv-p.png"
+        /></a>
+      </div>
     </div>
-
-    </main>
-
-</body>
+  </body>
 </html>
-
-<!--border-radius: 33px;
