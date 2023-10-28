@@ -8,21 +8,23 @@
     <style type="text/css">
       body{
         background-color: #121212;
+        height:100%; 
+        width:50%;
+        
       }
       #main{
-        display: flex;
-        flex-direction: row;
+       
       }
       #title-text {
-        text-align: center;
+        
         margin-top: 50px;
-        position: relative;
-        width: 3000px;
+        margin-bottom: 50px;
+        /*width: 3000px;*/
         display: table;
         background-color: blue;
       }
       h1{
-        text-align: center;
+        
         display: table-cell;
         vertical-align: middle;
         color: rgb(252, 252, 252);
@@ -30,10 +32,11 @@
         font-family: Arial, Helvetica, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
       #page-videos{
-        text-align: center;
-        display: flex;
         color: blue;
         background-color: #b40606;
+      }
+      iframe{
+        border-radius: 20px;
       }
 
     </style>
@@ -41,14 +44,17 @@
   <main>
   <div id="title-text">
     <h1>Nice videos to watch</h1>
-    <div id="page-videos">
-    <video src="">
-      
-
-    </video>
-    </div>
   </div>
-</main>
+
+    <div id="page-videos">
+      <a href="/challenge009/selectvideo/page2.hmtl"><img src="image/thumbxv-p.png"></a>
+      <iframe width="330" height="185" src="https://www.youtube.com/embed/YpmJJDFiT-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="330" height="185" src="https://www.youtube.com/embed/Tdzb8zoRbeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="330" height="185" src="https://www.youtube.com/embed/MvwdsXJE6Ao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    </main>
+
 </body>
 </html>
 
