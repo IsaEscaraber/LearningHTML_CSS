@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML MIDEAS</title>
-</head>
-<style type="text/css">
-  div {text-align: center;}
-  h1 {color: rgb(190, 3, 90); font-size: 50px;}
-  h2 {color: rgb(190, 3, 90); font-size: 38px;}
-  p {color: rgb(92, 7, 202); font-size: 22px;}
-</style>
-<body>
-  <div>
-  <h1>Playing audio</h1>
-  <p>Let's learn how to play audio in HTML</p>
-  <!--<audio src="midea/happy-music.mp3" controls></audio> -->
-  <!--MP3, WAV, OGG (FORMATOS COMPATIVEIS)-->
-  <audio preload="none" controls loop>
-    <source src="midea/happy-music.mp3" type="audio/mpeg">
-    <source src="midea/happy-music.ogg" type="audio/ogg">
-    <source src="midea/happy-music.wav" type="audio/wav">
-    <p>Unfortenally your browser does not support audio playback <a href="midea/happy-music.mp3"> Click here to download the file</a></p> <!--Caso não tenha compatibilidade com nenhum desses formatos, aparecera essa frase para baixar o arquivo-->
-  </audio>
-  <h2>Dinamic Image</h2>
-  <p>Try opening this site on different devices or simply increase and decrease the size of your browser</p>
-  <picture>
-    <source media="(max-width:730px)" srcset="images/photo-p.png" type="image/png">
-    <source media="(max-width:1030px)" srcset="images/photo-m.png" type="image/png">
-    <img src="images/photo-g.png" alt="Flexible image">
-  </picture>
-</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML MIDEAS</title>
+  </head>
+  <style type="text/css">
+    div {
+      text-align: center;
+    }
+    h1 {
+      color: rgb(190, 3, 90);
+      font-size: 50px;
+    }
+    h2 {
+      color: rgb(190, 3, 90);
+      font-size: 38px;
+    }
+    p {
+      color: rgb(92, 7, 202);
+      font-size: 22px;
+    }
+  </style>
+  <body>
+    <div>
+      <h1>Playing audio</h1>
+      <p>Let's learn how to play audio in HTML</p>
+      <!--<audio src="midea/happy-music.mp3" controls></audio> -->
+      <!--MP3, WAV, OGG (FORMATOS COMPATIVEIS)-->
+      <audio preload="none" controls loop>
+        <source src="midea/happy-music.mp3" type="audio/mpeg" />
+        <source src="midea/happy-music.ogg" type="audio/ogg" />
+        <source src="midea/happy-music.wav" type="audio/wav" />
+        <p>
+          Unfortenally your browser does not support audio playback
+          <a href="midea/happy-music.mp3"> Click here to download the file</a>
+        </p>
+        <!--Caso não tenha compatibilidade com nenhum desses formatos, aparecera essa frase para baixar o arquivo-->
+      </audio>
+      <h2>Dinamic Image</h2>
+      <p>
+        Try opening this site on different devices or simply increase and
+        decrease the size of your browser
+      </p>
+      <picture>
+        <source
+          media="(max-width:730px)"
+          srcset="images/photo-p.png"
+          type="image/png"
+        />
+        <source
+          media="(max-width:1030px)"
+          srcset="images/photo-m.png"
+          type="image/png"
+        />
+        <img src="images/photo-g.png" alt="Flexible image" />
+      </picture>
+    </div>
+  </body>
 </html>
-<!--A ordem é super importante, primeiro adicionamos a foto maior e depois acrescentamos as menores de forma decrescente de baixo para cima --> 
+<!--A ordem é super importante, primeiro adicionamos a foto maior e depois acrescentamos as menores de forma decrescente de baixo para cima -->

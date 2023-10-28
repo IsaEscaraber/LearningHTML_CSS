@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Videos</title>
+  </head>
+  <style type="text/css">
+    div {
+      text-align: center;
+    }
+    h1{
+      color: brown;
+    }
+  </style>
+  <body>
+    <div>
+      <h1>Inserting locally hosted videos (Localhost)</h1>
+      <p>This videos is hosted in my own server</p>
+      <video width="800" poster="images/thumb-london.png" controls loop>
+        <source src="/ex012/midea/Myvideo.mkv" type="video/mkv">
+        <source src="/ex012/midea/Myvideo.webm" type="video/webm">
+        <source src="/ex012/midea/myvideo.mp4" type="video/mpeg">
+        <p>Your browser does not support video playback</p>
+      </video>
+      <h1>Inserting Youtube video</h1>
+      <p>This one is hosted online on Youtube</p>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/LW0bhKitRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <h1>Inserting Vimeo video</h1>
+      <p>This one is also hosted online but on Vimeo</p>
+      <iframe src="https://player.vimeo.com/video/257399106?h=b4f1975b25&loop=1&color=ff0179&byline=0&portrait=0" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
+
+<!--Alinhar the code is shift + alt + f -->
+<!--autoplay para quando queremos to play automatically sempre when to reload the page-->
