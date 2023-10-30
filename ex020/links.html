@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      /* CUSTOM SELECTORS
+      #   = id
+      .   = class
+      :   = pseudo-class
+      ::  = pseudo-element
+      >   = children
+      */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:visited {
+        color: brown;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: black;
+      }
+      a:active {
+        color: yellow;
+      }
+      a::before {
+        content: "❛";
+      }
+      a::after {
+        content: "[link]";
+        text-decoration: none;
+        font-weight: normal;
+        content: "❜";
+      }
+      .especial {
+        background-color: rgb(238, 162, 162);
+      }
+      .especial::before {
+        content: "❝";
+        color: rgb(0, 0, 0);
+      }
+      .especial::after {
+        content: "❞";
+        color: rgb(0, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizing Links</h1>
+    <ul>
+      <li>
+        <a href="https://github.com/IsaEscaraber" target="_blank"
+          >Github Repository</a
+        >
+        <!--Target "blank" is used to open the link in another browser tab, keeping the current tab-->
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@twogethars1305">Youtube Channel</a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/_isascaraber/" class="especial">
+          Instagram
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>

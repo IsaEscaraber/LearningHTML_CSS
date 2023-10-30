@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover Examples</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      div:hover {
+        color: red;
+      }
+      div > p {
+        display: none;
+      }
+      div:hover > p {
+        display: block;
+        color: aliceblue;
+        font-weight: bolder;
+        text-align: center;
+        background-color: rgb(255, 5, 122);
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="pseudoclass.html">back</a>
+    <h1>Hover Examples</h1>
+    <p>Hover your mouse over text</p>
+    <div>
+      Hover over here, please
+      <p>HIDE TEXT</p>
+    </div>
+    <p>End of Examples</p>
+  </body>
+</html>
