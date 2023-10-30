@@ -20,7 +20,7 @@
 
 # 📖 Description
 
-- The HTML5 and CSS3 Course is teaching me how to create websites using hypertext markup language (HTML) and cascading style sheets (CSS), all in their latest versions. In this course, Professor Gustavo Guanabara created a set of videos, exercises, challenges and support material in the form of an e-book with 30 chapters in total.
+ The HTML5 and CSS3 Course is teaching me how to create websites using hypertext markup language (HTML) and cascading style sheets (CSS), all in their latest versions. In this course, Professor Gustavo Guanabara created a set of videos, exercises, challenges and support material in the form of an e-book with 30 chapters in total.
 
 
 ---
