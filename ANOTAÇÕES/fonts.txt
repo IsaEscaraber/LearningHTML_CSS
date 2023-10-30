@@ -1,0 +1,41 @@
+Fonts type
+
+Anatomy of the fonts
+- Aturas das maiúsculas
+- Altura-x
+- Ascendentes
+- Descendentes
+- Corpo
+
+Componentes Anatomico
+- Serifa
+- Haste
+- Filete
+- Arco
+- Esporão
+- Vértice
+- Terminal
+- Braço
+- Perna
+- Pé
+- Espinha
+- Barriga
+- Olho
+- Orelha
+- Cauda
+
+Glifos são letras. Fonte é um conjunto de glifos.
+
+Familia tipograficas
+- Light
+- Normal
+- Seminegrito
+- Negrito
+- Extranegrito
+
+Categorias de Fontes
+- Serifadas
+- Sans-Serif
+- Monoespaçadas
+- Handwriting
+- Display
