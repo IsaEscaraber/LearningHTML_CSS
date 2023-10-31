@@ -1,0 +1,19 @@
+BOX MODEL HTML
+
+It's is known as a "Aninhamente", when there is a box inside another.
+
+<h1> Hello world! </h1>
+
+It is already in a box. And we can add:
+
+* Box Anatomy
+- Height
+- Width
+- Border
+- Padding
+- Margin
+- Outline (contorno)
+
+*Box type
+- Box-level (Always occupies the entire line, i.e. 100% of the page width, forcing the next boxes to go to the next line automatically). Ex: <div>, <h1>-<h6>, <p>, <main>, <header>, <nav>, <article>, <aside>, <footer>, <form>, <video>.
+- Inline-level (In this case it will be the opposite, it will not go to the next line, it will remain on the same line, with a smaller width. The next content will remain on the same line too, not requiring a line break). Ex: <span>, <a>, <code>, <small>, <em>, <sup>-<sub>, <label>, <button>, <input>, <select>.

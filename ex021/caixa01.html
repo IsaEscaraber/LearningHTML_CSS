@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model</title>
+  <style>
+    h1{ /*BOX-LEVEL ELEMENT*/
+      /*For me to convert this element from box-level to inline, need to use the code...
+      display: inline;
+      */
+      
+      background-color: lightcoral;
+      height: 300px;
+      width: 300px;
+
+      /*
+      -------PADDING--------
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
+      padding-bottom: 50px;
+      */
+      padding: 50px 50px 50px 50px; /*Or we can use "padding: 50px;" for when we want all sides to be equal. If I use two value, like "pedding: 50px 20px;" it is implied that the top and the bottom will be 50px and the sides left and right will be 20px */
+
+      /*
+      -------BORDER---------
+      border-width: 10px;
+      border-style: solid;
+      border-color: blue;
+      All this lines is the same a this shorthand
+      */
+      border: 10px solid blue;
+
+      /*
+      ------OUTLINE--------
+      outline-width: 20px;
+      outline-style: dashed;
+      outline-color: red;
+      */
+      outline: 20px dashed red ;
+
+      /*
+      -------MARGIN--------
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 60px;
+      margin-left: 50px;
+      */
+      margin: 20px 20px 60px 50px; /*I can use "margin: auto" if I want to center the element/box. I can also use the "margin: auto;" just in the sides. Ex: 
+      margin: 20px auto 60px auto;*/
+  
+    }
+    a{/*INLINE-LEVEL ELEMENT*/
+      display: block; /*Changing the display inline to block*/
+      border-width: 10px;
+      border-style: double;
+      border-color: red;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Box-level Examples</h1>
+  <p>Paragraphs are also box-level examples, but <a href="#">links are inline box-level examples</a>. Let's see how it all works.</p> 
+</body>
+</body>
+</html>
