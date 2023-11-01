@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* Why you have the same of UTF-8, you already did it on meta HTML- remove it*/
 @font-face {
   font-family: "idroid";
   src: url("fontes/idroid.otf") format("opentype");
