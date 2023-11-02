@@ -26,17 +26,29 @@ header > p {
   text-shadow: 1px 1px 7px black;
 }
 header > nav {
+  box-shadow: 4px 4px 8px #26252594;
   background-color: #1a5c38;
   padding: 10px 0px 10px 20px;
   text-align: left;
 }
 .navLinks {
+  padding: 10px;
   color: white;
   text-decoration: none;
   margin-left: 5px;
-  margin-right: 20px;
+  margin-right: 10px;
+}
+.navLinks:hover {
+  background-color: #35df81;
+  padding: 10px;
+  border-radius: 5px;
+  color: #003518;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
 }
 main {
+  box-shadow: 0px 8px 10px 2px #26252560;
   background-color: white;
   margin: auto;
   max-width: 900px;
@@ -69,12 +81,30 @@ span {
   color: rgb(7, 116, 56);
   font-weight: 800;
 }
+.contentLink > a {
+  background-color: #8ffabe;
+  padding: 0px 10px;
+  text-decoration: none;
+  color: rgb(7, 116, 56);
+}
+.contentLink > a:hover {
+  text-decoration: underline;
+}
+.contentLink > img {
+  background-color: #8ffabe;
+  max-height: 18px;
+  margin: auto;
+  color: #136b39;
+}
 #videoAndroid {
   height: 466px;
   background-color: #1a5c38;
   padding: 30px;
+  min-height: 466px;
 }
+
 #extra {
+  box-shadow: 3px 4px 8px #26252560;
   background-color: #c5ebd6;
   margin: 20px;
   border-radius: 10px;
