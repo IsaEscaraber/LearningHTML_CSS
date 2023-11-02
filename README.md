@@ -5,18 +5,18 @@
  <p align="center"><img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-# Índice 
+# Index
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Conclusão](#conclusão)
+* [Title and Cover Image](#Title-and-Cover-Image)
+* [Emblems](#emblems)
+* [Index](#index)
+* [Project Description](#project-description)
+* [Project Status](#Project-Status)
+* [Features and Application Demonstration](#functionalities-and-application-demonstration)
+* [Project Access](#project-access)
+* [Technologies used](#technologies-used)
+* [Contributing People](#contributing-people)
+* [Conclusion](#conclusion)
 
 # 📖 Description
 
@@ -25,13 +25,13 @@
 
 ---
 <h4 align="center"> 
-    :construction:  Projeto em construção  :construction:
+    :construction:  Project under construction  :construction:
 </h4>
 
 #  :hammer: Project features
 
 - `Functionalities 1`: Archive my exercises using HTML and CSS technologies during the course
-- `Functionalities 2`: Acessar meus codigos sempre que necessario relembrar algo.
+- `Functionalities 2`: Access my codes whenever I need to remember something.
 - `Functionalities 3`: Organize my studies and codes made throughout the course
 
   
@@ -46,7 +46,7 @@
   - Copy the SSH format
   - Finally use git clone in your VsCode
 
-# ✔️ Técnicas e tecnologias utilizadas
+# ✔️ Techniques and technologies used
 
 - ``HTML``
 - ``CSS``
