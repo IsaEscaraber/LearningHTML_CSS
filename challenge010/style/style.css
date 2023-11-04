@@ -33,17 +33,20 @@ body {
   font-family: var(--principal-font);
 }
 header {
-  padding: 20px;
+  padding-top: 20px;
+  min-height: 150px;
   text-align: center;
   color: var(--cor0);
   background: linear-gradient(to top, var(--cor6), var(--cor3));
 }
 header > h1 {
-  margin: 20px;
+  font-size: 2.7em;
+  padding: 20px;
   font-family: var(--emphasis-font);
   text-shadow: 1px 1px 7px var(--cor7);
 }
 header > p {
+  font-size: 1em;
   margin: 0;
   padding-bottom: 20px;
   text-shadow: 1px 1px 7px var(--cor7);
@@ -53,6 +56,7 @@ nav {
   background-color: var(--cor5);
   padding: 10px 0px 10px 20px;
   text-align: left;
+  font-weight: 600;
 }
 .navLinks {
   padding: 10px;
@@ -66,17 +70,21 @@ nav {
   padding: 10px;
   border-radius: 5px;
   color: #003518;
+  /*
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
+  This conf is used to aggregate animation on the ":hover"
+  */
+  transition-duration: 0.6s;
 }
 main {
   box-shadow: 0px 8px 10px 2px #26252560;
   background-color: var(--cor0);
   margin: auto;
-  min-width: 300px;
   max-width: 800px;
-  padding: 20px 0px;
+  min-width: 320px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   font-family: var(--principal-font);
   border-radius: 0px 0px 10px 10px;
@@ -85,35 +93,39 @@ main {
   border-bottom-right-radius:
   */
 }
-main > img {
-  margin: 20px 0px;
+.imageContent {
   width: 100%;
 }
 .titleContentH1 {
   font-family: var(--generic-font);
   text-align: left;
   color: var(--cor4);
-  padding: 20px 20px;
-  margin: 0;
+  margin: 20px 20px;
 }
 .titleContent {
   font-family: var(--generic-font);
+  font-size: 1.2em;
   text-align: left;
   background: linear-gradient(to right, var(--cor1), var(--cor0));
-  color: var(--cor4);
+  color: var(--cor5);
   margin: 20px 20px;
-  padding: 5px 20px;
+  padding: 5px 0px;
+  text-indent: 10px;
 }
-/* This is used to dicrease responsively the image that is not consider a block */
+/* This is used to dicrease responsively the image that is not consider a block 
+max-width:250px is the max width this puctire will be
+*/
 main .imgBugdroid {
-  width: 50%;
-  display: block;
+  width: 250px;
   margin: auto;
 }
-article > p {
+/* We use the symbol > when the tag is directly inside another one. If it is not dicretly inside we dont use */
+article p {
+  font-size: 1.1em;
+  line-height: 1.5em; /*This is the distance of each line*/
   text-align: justify;
   text-indent: 20px;
-  padding: 20px 20px;
+  margin: 20px 20px;
 }
 span {
   color: var(--cor4);
@@ -121,12 +133,14 @@ span {
 }
 .contentLink > a {
   background-color: var(--cor1);
-  padding: 0px 10px;
+  padding: 0px 5px;
   text-decoration: none;
   color: var(--cor4);
+  font-size: 0.9em;
 }
 .contentLink > a:hover {
   text-decoration: underline;
+  color: var(--cor5);
 }
 .contentLink > img {
   background-color: var(--cor1);
