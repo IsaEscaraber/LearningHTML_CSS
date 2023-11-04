@@ -142,12 +142,15 @@ span {
   text-decoration: underline;
   color: var(--cor5);
 }
-.contentLink > img {
+.contentLink::after {
+  content: "\1F517";
+}
+/* .contentLink > img {
   background-color: var(--cor1);
   max-height: 18px;
   margin: auto;
   color: var(--cor4);
-}
+} */
 
 #videoAndroid {
   margin: 20px 0px;
@@ -177,12 +180,21 @@ span {
   text-indent: 20px;
   padding: 0px 10px;
 }
+#lists {
+  min-width: 500px;
+}
 ul {
+  text-align: left;
+  list-style-position: inside; /*The symbol in front of the list will stay inside the div*/
   margin: 0;
   padding-left: 30px;
-  list-style-image: url();
+  list-style-type: "\1F5F8\00A0"; /*1F5F8 is a emojicon, 00A0 is just a space -  It is not compatible with all browsers*/
+  columns: 2;
 }
-#lists {
+/* @media screen and (max-width: 768px) ul {
+  columns: 1;  Volta a uma única coluna 
+} */
+/* #lists {
   display: flex;
   max-width: 860px;
   padding: 0;
@@ -197,8 +209,9 @@ ul {
   text-align: left;
   width: 50%;
   padding: 5px;
-}
+} */
 footer {
+  font-size: 0.8em;
   margin-top: 20px;
   text-align: center;
   padding: 10px;
@@ -208,6 +221,13 @@ footer {
 footer > p {
   margin: 0;
 }
-.author {
+footer a {
   color: var(--cor0);
+  text-decoration: none;
+  font-weight: bolder;
 }
+.author:hover {
+  color: var(--cor1);
+  text-decoration: underline;
+}
+/* We need to describe all the path when we used the symbol >*/
