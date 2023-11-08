@@ -131,21 +131,23 @@ span {
   color: var(--cor4);
   font-weight: 800;
 }
-.contentLink > a {
+.externalLink {
   background-color: var(--cor1);
   padding: 0px 5px;
   text-decoration: none;
   color: var(--cor4);
   font-size: 0.9em;
+  border-radius: 7px;
 }
-.contentLink > a:hover {
+.externalLink:hover {
   text-decoration: underline;
   color: var(--cor5);
+  background-color: var(--cor3);
 }
-.contentLink::after {
-  content: "\1F517";
+.externalLink::after {
+  content: "\00A0\1F517";
 }
-/* .contentLink > img {
+/* .externalLink > img {
   background-color: var(--cor1);
   max-height: 18px;
   margin: auto;
@@ -181,7 +183,8 @@ span {
   padding: 0px 10px;
 }
 #lists {
-  min-width: 500px;
+  min-width: 320px;
+  text-align: center;
 }
 ul {
   text-align: left;
@@ -191,6 +194,7 @@ ul {
   list-style-type: "\1F5F8\00A0"; /*1F5F8 is a emojicon, 00A0 is just a space -  It is not compatible with all browsers*/
   columns: 2;
 }
+
 /* @media screen and (max-width: 768px) ul {
   columns: 1;  Volta a uma única coluna 
 } */
