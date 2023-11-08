@@ -44,26 +44,27 @@ header > h1 {
   padding: 20px;
   font-family: var(--emphasis-font);
   text-shadow: 1px 1px 7px var(--cor7);
+  font-weight: normal;
 }
 header > p {
-  font-size: 1em;
+  font-size: 0.9em;
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   text-shadow: 1px 1px 7px var(--cor7);
 }
 nav {
   box-shadow: 4px 4px 8px #26252594;
   background-color: var(--cor5);
-  padding: 10px 0px 10px 20px;
+  padding: 10px 0px 10px 10px;
   text-align: left;
   font-weight: 600;
 }
 .navLinks {
-  padding: 10px;
+  padding: 11px 10px;
   color: var(--cor0);
   text-decoration: none;
-  margin-left: 5px;
-  margin-right: 10px;
+  /* margin: 5px 10px 10px; */
+  font-size: small;
 }
 .navLinks:hover {
   background-color: var(--cor3);
@@ -98,15 +99,17 @@ main {
 }
 .titleContentH1 {
   font-family: var(--generic-font);
+  font-weight: normal;
   text-align: left;
   color: var(--cor4);
   margin: 20px 20px;
 }
-.titleContent {
+.titleContentH2 {
   font-family: var(--generic-font);
+  font-weight: normal;
   font-size: 1.2em;
   text-align: left;
-  background: linear-gradient(to right, var(--cor1), var(--cor0));
+  background: linear-gradient(to right, var(--cor3), var(--cor0));
   color: var(--cor5);
   margin: 20px 20px;
   padding: 5px 0px;
@@ -154,12 +157,20 @@ span {
   color: var(--cor4);
 } */
 
-#videoAndroid {
-  margin: 20px 0px;
-  height: 466px;
+.videoAndroid {
+  margin: 20px 0px; /*I can use negative number to measure the magin in case of the body already has margin. Ex: "body: 20px;" and I want to have one div without any margin, I need to use "margin: 0px -20px;" removing the same quantity of margin*/
+
   background-color: var(--cor5);
   padding: 30px;
-  min-height: 466px;
+  position: relative;
+  padding-bottom: 56%;
+}
+div.videoAndroid iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
 
 #extra {
@@ -183,7 +194,7 @@ span {
   padding: 0px 10px;
 }
 #lists {
-  min-width: 320px;
+  min-width: 280px;
   text-align: center;
 }
 ul {
